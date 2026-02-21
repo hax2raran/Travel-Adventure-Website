@@ -1,35 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Ocean Explorer</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>🌊 Ocean Explorer</h1>
-        <p>Discover the beauty of the world</p>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>🌊 Ocean Explorer</h1>
+            <p>Adventure Awaits Beyond the Horizon</p>
+            <a href="#" class="btn">Explore Now</a>
+        </div>
     </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Destinations</a>
-        <a href="#">Adventures</a>
-        <a href="#">Contact</a>
+    <nav class="navbar">
+        <div class="logo">Travel</div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Destinations</a>
+            <a href="#">Adventures</a>
+            <a href="#">Contact</a>
+        </div>
     </nav>
 
     <main>
-        <section class="intro">
-            <h2>Explore the Blue Planet</h2>
-            <p>Join us on an unforgettable journey across oceans, beaches, and breathtaking skies.</p>
-        </section>
+        <h2 class="section-title">Popular Destinations</h2>
 
-        <section class="gallery">
-            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach">
-            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Mountain">
-            <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98" alt="Ocean">
-        </section>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Maldives">
+                <div class="card-content">
+                    <h3>Maldives</h3>
+                    <p>Crystal clear waters and white sandy beaches.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Mountains">
+                <div class="card-content">
+                    <h3>Swiss Alps</h3>
+                    <p>Snow peaks and breathtaking views.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98" alt="Ocean">
+                <div class="card-content">
+                    <h3>Bali</h3>
+                    <p>Tropical paradise with vibrant culture.</p>
+                </div>
+            </div>
+
+        </div>
     </main>
 
     <footer>
@@ -37,4 +64,5 @@
     </footer>
 
 </body>
+
 </html>
