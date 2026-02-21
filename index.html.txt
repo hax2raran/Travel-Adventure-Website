@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ocean Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌊 Ocean Explorer</h1>
+        <p>Discover the beauty of the world</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Destinations</a>
+        <a href="#">Adventures</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section class="intro">
+            <h2>Explore the Blue Planet</h2>
+            <p>Join us on an unforgettable journey across oceans, beaches, and breathtaking skies.</p>
+        </section>
+
+        <section class="gallery">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Mountain">
+            <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98" alt="Ocean">
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Ocean Explorer | Travel the World</p>
+    </footer>
+
+</body>
+</html>
